@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel='stylesheet' type='text/css' href='http://fonts.useso.com/css?family=Open+Sans:300,400,600,700,400italic'>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/ekko-lightbox.min.css">
+<!--    <link rel="stylesheet" type="text/css" href="css/ekko-lightbox-dark.css"> -->
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>系统介绍</title>
+</head>
+
+<body>
+
+<header id="top">
+
+	<div class="container-fluid">
+    
+        <div class="row">
+        
+            <div class="col-lg-4 col-md-12 site-title">
+                <h1>并行决策系统</h1>
+                <h2>西南交通大学 王志昊 本科毕业设计作品</h2>
+                
+            </div>
+            
+            <div class="col-lg-8 col-md-12 main-menu">
+                
+                <nav class="navbar navbar-light">
+                  <ul class="nav navbar-nav single-page-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#home">Home <!-- <span class="sr-only">(current)</span> --></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#gallery">School</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link external" href="http://192.168.1.105:8080/ParallelDecisionSystem/start.jsp" target="_parent">External</a>
+                    </li>
+                  </ul>
+                </nav>
+              
+            </div>
+            
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12">
+            	<hr class="sigma-hr">
+            </div>
+        </div>
+
+    </div>
+    
+</header>
+
+<section id="home">
+
+	<div class="container-fluid">
+
+        <div class="row sigma-home single-page-nav">
+        
+        	<div class="col-md-offset-2 col-lg-offset-3 col-lg-6 col-md-8 col-sm-12 text-center">
+            	<h1>并行决策系统</h1>
+            	<p>本系统是一款可处理大数据信息的并行决策系统。主要利用Hadoop平台的Map/Reduce编程框架，将传统串行C4.5算法进行并行化，并以其为基分类器实现随机森林算法用于数据决策分类，大大提高了大数据情况下的分类效果。</p>
+                <a href="#gallery" class="btn btn-danger sigma-start">Our School</a>
+                <a href="#about" class="btn btn-success sigma-start">Learn More</a>
+            </div>
+            
+        </div>
+        
+        <div class="row">
+        	<div class="sigma-content col-lg-3 col-md-6 sigma-bg-lightgray text-center">
+            	<span class="sigma-icon fa fa-power-off"></span>
+                <h2>Design</h2>
+            	<p>从随机森林的基础算法C4.5入手进行并行化，保证了系统的高效、准确。</p>
+            </div>
+            <div class="sigma-content col-lg-3 col-md-6 sigma-bg-gray text-center">
+            	<span class="sigma-icon fa fa-bolt"></span>
+            	<h2>Implement</h2>
+            	<p>克服了C/S系统不灵活、分布功能弱等缺点，用户随时随地可以计算大数据。</p>
+            </div>
+            <div class="sigma-content col-lg-3 col-md-6 sigma-bg-darkgray text-center">
+            	<span class="sigma-icon fa fa-thumbs-up"></span>
+            	<h2>Enhance</h2>
+            	<p>对于分类问题中，属性可能为连续取值等问题，给出了并行化解决办法。</p>
+            </div>
+            <div class="sigma-content col-lg-3 col-md-6 sigma-bg-black text-center">
+            	<span class="sigma-icon fa fa-bar-chart"></span>
+            	<h2>Monitor</h2>
+            	<p>为用户提供了执行任务的步骤说明栏，简要反馈当前结果，并可供下载。</p>
+            </div>
+        </div>
+        
+	</div>
+    
+</section>
+
+<section id="gallery">
+
+	<div class="container-fluid">
+
+        <div class="row">
+        
+			<a href="images/ssyh.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="竢实扬华">
+            <img src="images/ssyh.jpg" alt="Image 1" class="img-fluid sigmapad col-lg-4 col-md-6 col-sm-6"></a>
+
+			<a href="images/yj.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="夜景"
+            	data-footer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non nunc dictum.">
+            <img src="images/yj.jpg" alt="Image 2" class="img-fluid sigmapad col-lg-4 col-md-6 col-sm-6"></a>
+
+			<a href="images/tsg.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="图书馆">
+			<img src="images/tsg.jpg" alt="Image 3" class="img-fluid sigmapad col-lg-4 col-md-8 col-sm-12"></a>
+
+			<a href="images/nm.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="南门"
+            	data-footer="Aenean et tortor nec odio tempor volutpat nec in dui. Etiam libero turpis, accumsan nec.">
+			<img src="images/nm.jpg" alt="Image 4" class="img-fluid sigmapad col-lg-8 col-md-4 col-sm-6"></a>
+
+			<a href="images/jh.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="镜湖">
+			<img src="images/jh.jpg" alt="Image 5" class="img-fluid sigmapad col-lg-4 col-md-4 col-sm-6"></a>
+			
+            <a href="images/sx.jpg" data-toggle="lightbox" data-gallery="sigma-gallery" data-title="黄万里像">
+            <img src="images/sx.jpg" alt="Image 6" class="img-fluid sigmapad col-lg-4" title="Bicycle"></a>
+            
+        </div>
+        
+    </div>
+
+</section>
+
+<section id="about">
+
+	<div class="container-fluid">
+    
+    	<div class="row sigma-section-header">
+        	<div class="col-md-offset-2 col-lg-offset-3 col-lg-6 col-md-8 col-sm-12 text-center">
+        		<h1>About Me</h1>
+                <p>该并行决策系统是作者在本科学习阶段的毕业设计作品，但由于作者技术水平有限，系统中难免会存在不准确或错误之处，望使用者批评指正。</p>
+            </div>
+        </div>
+		
+        <div class="row single-page-nav">
+            <div class="sigma-content col-lg-6 col-md-6 sigma-bg-pink">
+            	<h2>执行过程</h2>
+            	<p>简要说明系统的执行流程。</p>
+                <a href="#about" class="btn btn-primary btn-lg">Read Detail</a>
+            </div>
+            <div class="sigma-content col-lg-6 col-md-6 sigma-bg-lightblue">
+            	<h2>联系我们</h2>
+            	<p>想要了解更多，或想要跟作者联系。</p>
+                <a href="#contact" class="btn btn-danger btn-lg">Learn More</a>
+            </div>
+        	<div class="sigma-content col-lg-4 col-md-6 sigma-bg-lightgray">
+            	<h2>01 Training</h2>
+            	<p>上传训练集合，提交分类任务到Hadoop，构建随机森林。</p>
+            </div>
+            <div class="sigma-content col-lg-4 col-md-6 sigma-bg-gray">
+            	<h2>02 Classification</h2>
+            	<p>输入测试样例或测试集合，输出相应预测结果。</p>
+            </div>
+            <div class="sigma-content col-lg-4 col-md-12 sigma-bg-darkgray">
+            	<h2>03 Analysis</h2>
+            	<p>下载系统生成的预测分析表格，了解算法性能详情。</p>
+            </div>
+        
+        	<div class="sigma-content col-lg-3 col-md-6 sigma-bg-red">
+            	<h2>Author</h2>
+            	<p>王志昊，西南交通大学信息学院，本科生</p>
+            </div>
+            <div class="sigma-content col-lg-3 col-md-6 sigma-bg-blue">
+            	<h2>Adviser</h2>
+            	<p>陈红梅，博士，副教授，硕士导师。</p>
+            </div>
+            <div class="sigma-content col-lg-3 col-md-6 sigma-bg-green">
+            	<h2>Technology</h2>
+            	<p>Java，Hadoop，JSP，Tomcat。</p>
+            </div>
+            <div class="sigma-content col-lg-3 col-md-6 sigma-bg-yellow">
+            	<h2>Thanks</h2>
+            	<p>毕业设计期间指导老师、同学给予的帮助。</p>
+            </div> 
+            
+        </div>
+        
+	</div>
+    
+</section>
+  <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>          
+<section id="contact">
+
+	<div class="container-fluid">
+
+        <div class="row sigma-section-header">
+        	<div class="col-md-offset-2 col-lg-offset-3 col-lg-6 col-md-8 col-sm-12 text-center">
+        		<h1>Contact</h1>
+                <p>您可能对本系统的介绍、功能等存有疑问，或者您发现本系统存在部分问题需要改进，欢迎您联系我。</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="sigmano col-lg-8 col-md-12">
+                
+                <form action="#contact" method="post" id="contact-form">
+                <div class="col-md-6">
+               		<fieldset class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Write a full name">
+                  	</fieldset>
+                  
+                  	<fieldset class="form-group">
+                    	<label for="email">Your Email</label>
+                    	<input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    	
+                  	</fieldset>
+                    
+                    <fieldset class="form-group">
+                    	<label for="budget">Your Needs</label>
+                    	<select class="form-control" id="needs">
+                      		<option>发现Bug</option>
+                      		<option>系统功能</option>
+                      		<option>算法详情</option>
+                    	</select>
+                  	</fieldset>
+                </div> 
+                <div class="col-md-6">
+                 
+                 	<fieldset class="form-group">
+                        <label for="subject">Your School/Company</label>
+                        <input type="text" class="form-control" id="subject" placeholder="school/company">
+                  	</fieldset>
+                    
+                  	<fieldset class="form-group">
+                    	<label for="message">Your Message</label>
+                    	<textarea class="form-control" id="message" rows="4" placeholder="Write a message"></textarea>
+                  	</fieldset>
+                  
+                  	<div class="checkbox">
+                    	<label>
+                      		<input type="checkbox"> I am not a robot.
+                    	</label>
+                  	</div>
+                  
+                  	<button type="submit" class="btn btn-success btn-lg">Submit</button>
+                </div>  
+            	</form>
+                
+            </div>
+            
+			<div class="sigma-content col-lg-4 col-md-12">
+        		<h3>Our Address</h3>
+                <p>中国四川省成都市高新区西部园区西南交通大学 信息科学与技术学院</p>
+          		<p><span class="contact-icon fa fa-envelope-o"></span> Email: wangzhihao.chn@gmail.com</p>
+                <p><span class="contact-icon fa fa-phone"></span> Phone: 028-66366740</p>
+            </div>
+        </div>
+        
+	</div>
+    
+</section>
+
+<footer>
+
+	<div class="container-fluid">
+    
+    	<div class="row">
+            <div class="col-md-12">
+            	<hr class="sigma-hr">
+            </div>
+        </div>
+
+        <div class="row">
+        	<div class="sigma-copyright col-lg-8">
+            	<p>Copyright © 2016 并行决策系统
+                    
+                    | 西南交通大学 <a href="http://sist.swjtu.edu.cn/" target="_blank" title="信息学院">信息科学与技术学院</a> - 王志昊 本科毕业设计作品</p>
+            </div>
+            
+            <div class="sigma-copyright col-lg-4 single-page-nav text-right">
+            	<p><a href="#top">Go to top</a></p>
+            </div>
+        </div>
+        
+    </div>   
+
+</footer>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+        <script src="js/ekko-lightbox.min.js"></script>
+        <script src="js/jquery.singlePageNav.min.js"></script>
+        <script>
+
+            // Prevent console.log from generating errors in IE for the purposes of the demo
+            if ( ! window.console ) console = { log: function(){} };
+
+            // The actual plugin
+            $('.single-page-nav').singlePageNav({
+                offset: $('.single-page-nav').outerHeight(),
+                filter: ':not(.external)',
+                updateHash: true,
+                beforeStart: function() {
+                    console.log('begin scrolling');
+                },
+                onComplete: function() {
+                    console.log('done scrolling');
+                }
+            });
+			
+			$(document).ready(function ($) {
+
+				// delegate calls to data-toggle="lightbox"
+				$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+					event.preventDefault();
+					return $(this).ekkoLightbox({
+						always_show_close: true
+					});
+				});
+
+			});
+			
+        </script>
+
+</body>
+</html>
